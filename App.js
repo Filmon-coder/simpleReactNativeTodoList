@@ -68,11 +68,11 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#E8EAED',
+    backgroundColor: '#808000',
   },
   tasksWrapper: {
-    paddingTop: 80,
-    paddingHorizontal: 20,
+    paddingTop: 90,
+    paddingHorizontal: 30,
   },
   sectionTitle: {
     fontSize: 24,
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   },
   writeTaskWrapper: {
     position: 'absolute',
-    bottom: 60,
+    bottom: 45,
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-around',
